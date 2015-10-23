@@ -3,6 +3,13 @@ package lotto;
 import java.util.Arrays;
 
 public class Lotto {
+	public static void main(String[] args) {
+		Lotto lotto = new  Lotto();
+		int [] temp = lotto.getLotto();
+		for (int i = 0; i < temp.length; i++) {
+			System.out.println(temp[i]);
+		}
+	}
 
 	int[] lotto = new int[6]; // SBS에서 단 하나의 로또 번호만 출력
 
